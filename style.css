@@ -1,0 +1,152 @@
+
+
+*{
+	font-weight: 100;
+	line-height: 1.5;
+	font-family: Roboto,sans-serif;
+	font-size: 1rem;
+}
+body{
+	margin:0 auto;
+	background-color: #ff003200;
+	width: 100%;
+}
+body,html,.container{
+	height: 100vh;
+	
+}
+h3{
+	text-align: center;
+}
+.nav{
+	display: flex;
+	justify-content: space-between;
+	background-color: #1e616f;
+	text-align: right;
+	height: 4vh;
+	position: fixed;
+	width: 100%;
+}
+.nav-child1{
+	width: 45%;
+}
+.nav>li{
+	
+	/*width: 4%;*/
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #dadada;
+}
+.header_img{
+	margin-bottom: 3%;
+	margin-left: none;
+}
+.mainOne,.mainTwo{
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	margin:0 auto;
+}
+.black_test,.img,.form,.table{
+	width: 45%;
+}
+.img{
+	width: 50%;
+}
+.footer_menu{
+	width: 100%;
+	text-align: center;
+	display: flex;
+}
+.menuOne{
+	width: 30%;
+}
+.menuOne>a{
+	display: block;
+}
+.menuOne>li{
+	list-style: none;
+}
+.menuOne>li>a:hover{
+	color:  #1e616f;
+	transition: 0.5s;
+}
+.copy_right{
+	text-align: center;
+	background-color: #1e616f;
+}
+.footer_menu{
+	background-color: #1b1919;
+}
+.form_input{
+	padding: 3%;
+	
+}
+h3{
+	font-weight: 400;
+	font-size: 2rem;
+}
+.form_submit>button{
+	width: 70%; 
+	padding: 1%;
+	margin-bottom: 2%;
+	border: none;
+}
+input,textarea{
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	width: 70%;
+	height: 5vh;
+}
+input:hover{
+	transition: 0.5s;
+	border-bottom-color: #1e616f;
+}
+textarea:hover{
+	transition: 0.5s;
+	border-bottom-color: #1e616f;
+}
+.thead{
+	background-color: #1e616f;
+	text-align: center;
+}
+th{
+	color: white;
+	background-color:  #1e616f;
+	width: 3%;
+}
+td{
+	width: 3%;
+	padding-bottom: 2%;
+	text-align: center;
+}
+@media screen and (max-width: 770px) {
+	html,body{
+		width: 100%;
+	}
+	th{
+		width: 6%;
+	}
+	.nav{
+		width: 100%;
+	}
+	.nav-child1{
+		display: none;
+	}
+	.mainOne{
+		display: block;
+	}
+	.mainTwo{
+		display: block;
+	}
+	.black_text,.img{
+		width: 100%;
+	}
+	.form,input,textarea,button,.form_submit,.table{
+		width: 100%;
+		margin: 0px;
+	}
+}
